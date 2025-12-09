@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: quantum-gateway
+  #profiles默认为dev
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: ENC(22e60100780947acd5fa1d8d0b8cafe6bc6d1cf41d02432067b64051ba4010cd1ee41eff90cc638572b1787554363381)
+      username: ENC(3be77249c184d1f14221529a81d9a488)
+      password: ENC(d1aabb8c715b219ed6acad0eb078fb64)
+      namespace: ENC(03a32326fbf7a228736ccf0d0d2547c8)
+      discovery:
+        namespace: ${spring.cloud.nacos.namespace}
+        group: ${spring.profiles.active}
+      config:
+        namespace: ${spring.cloud.nacos.namespace}
+        group: ${spring.profiles.active}
+
+  config:
+    import:
+      - optional:nacos:${spring.application.name}.yaml?group=${spring.profiles.active}&refreshEnabled=true
+      - optional:nacos:quantum-redis.yaml?group=${spring.profiles.active}&refreshEnabled=true
+      - optional:nacos:quantum-satoken.yaml?group=${spring.profiles.active}&refreshEnabled=true

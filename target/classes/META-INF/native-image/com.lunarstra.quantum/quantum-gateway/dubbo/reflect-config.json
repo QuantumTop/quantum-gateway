@@ -1,0 +1,6520 @@
+[
+  {
+    "name": "org.apache.dubbo.registry.integration.InterfaceCompatibleRegistryProtocol",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.client.metadata.StandardMetadataServiceURLBuilder",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.TriplePathResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.compiler.support.JavassistCompiler",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.spring.security.filter.ContextHolderAuthenticationResolverFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.transport.TripleIsolationExecutorSupportFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metadata.report.MetadataScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.support.DefaultProviderFirstParams",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.ActiveLimitFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.zookeeper.curator5.aot.Curator5ZookeeperReflectionTypeDescriberRegistrar",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.h12.grpc.GrpcRequestHandlerMapping",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.configcenter.support.zookeeper.ZookeeperDynamicConfigurationFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.support.wrapper.ScopeClusterWrapper",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.cluster.Cluster"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.jaxrs.filter.ReadInterceptorAdapter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.ProtocolSerializationWrapper",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.Protocol"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.codec.TransportCodec",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.context.ModuleConfigManager",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.metadata.MetadataServiceURLParamsMetadataCustomizer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.spring.SpringMiscArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.cache.support.threadlocal.ThreadLocalCacheFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.PortTelnet",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.support.ForkingCluster",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.store.support.SimpleDataStore",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metrics.registry.collector.RegistryMetricsCollector",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.jaxrs.FormArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metrics.prometheus.PrometheusMetricsReporterFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.url.component.param.DefaultDynamicParamSource",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.filter.ProtocolFilterWrapper",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.Protocol"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.netty.NettyPortUnificationTransporter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.exchange.support.header.HeaderExchanger",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.ProtocolListenerWrapper",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.Protocol"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.ClusterScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.stub.StubProxyFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.http12.message.codec.YamlCodecFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.compiler.support.JdkCompiler",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.util.List"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.dispatcher.connection.ConnectionOrderedDispatcher",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.Ls",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.QosScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.StringToCharArrayConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.CommonScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.dubbo.filter.FutureFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.DisableSimpleProfiler",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.integration.DefaultServiceURLCustomizer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.DisableDetailProfiler",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.websocket.DefaultWebSocketServerTransportListenerFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.extension.DubboInternalLoadingStrategy",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.client.metadata.ProtocolPortsMetadataCustomizer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.MergeableClusterScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.configurator.absent.AbsentConfiguratorFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.h3.GenericHttp3ServerTransportListenerFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.StringToOptionalConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.h12.HttpResultPayloadExceptionHandler",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.status.support.LoadStatusChecker",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metrics.collector.DefaultMetricsCollector",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.dubbo.status.ThreadPoolStatusChecker",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.multiple.MultipleServiceDiscoveryFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metadata.MetadataServiceV2Detector",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.merger.MapMerger",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.DisableRouterSnapshot",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.dispatcher.execution.ExecutionDispatcher",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.client.metadata.ServiceInstanceHostPortCustomizer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.filter.support.ConsumerClassLoaderFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metrics.collector.HistogramMetricsCollector",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.threadpool.support.cached.CachedThreadPool",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.client.metadata.SpringCloudMetadataServiceURLBuilder",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.script.config.AppScriptRouterFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.serialize.fastjson2.Fastjson2ScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.spring.util.SpringParameterNameReader",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.jaxrs.PathParamArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.RouterSnapshotFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.GracefulShutdown",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.zookeeper.ZookeeperRegistryFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.loadbalance.RandomLoadBalance",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.serialize.hessian2.Hessian2ScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.netty4.NettyTransporter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.StringToIntegerConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.aot.GenericProxyDescriberRegistrar",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.TokenHeaderFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.basic.ParamArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.client.migration.MigrationRuleListener",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.RestProtocol",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.LoggerInfo",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.context.ConfigManager",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.spring.SpringScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.StringToFloatConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.support.FailfastCluster",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.logger.jdk.JdkLoggerAdapter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.spring.status.SpringStatusChecker",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.springframework.context.ApplicationContext"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.config.Environment",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ScopeModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.InvokerCountWrapper",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.Protocol"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.auth.filter.ProviderAuthFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.proxy.wrapper.StubProxyFactoryWrapper",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.ProxyFactory"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.spring.BindParamArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.merger.LongArrayMerger",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.spring.MultiValueMapCreator",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.GrpcHttp2Protocol",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.ssl.impl.SSLConfigCertProvider",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.netty4.NettyConnectionManager",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.Offline",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.api.connection.SingleProtocolConnectionManager",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metadata.aot.MetadataReflectionTypeDescriberRegistrar",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.jaxrs.filter.WriterInterceptorAdapter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.serialize.SerializationScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.monitor.support.MonitorFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.jaxrs.QueryParamArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.multiple.StringToDequeConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.configcenter.support.apollo.ApolloDynamicConfigurationFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.StringToDoubleConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.SwitchLogger",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.TokenFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.merger.ListMerger",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.mesh.route.StandardMeshRuleRouterFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.threadpool.manager.IsolationExecutorRepository",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metadata.store.nacos.NacosMetadataReportFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.servlet.ServletHttpMessageAdapterFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.StringToCharacterConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.json.impl.FastJson2Impl",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metrics.report.DefaultMetricsReporterFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.spring.CookieValueArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.extension.DubboLoadingStrategy",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.swagger.SwaggerOpenAPIDefinitionResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.spring.security.filter.AuthenticationExceptionTranslatorFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metadata.MetadataServiceDetector",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.zookeeper.ZookeeperServiceDiscoveryFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.loadbalance.ShortestResponseLoadBalance",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.support.FailbackCluster",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metrics.aot.DefaultMetricsReflectionTypeDescriberRegistrar",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.serialize.hessian2.aot.HessianResourceDescriberRegistrar",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.support.MergeableCluster",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.merger.BooleanArrayMerger",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.DeprecatedFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.jaxrs.MatrixParamArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.DefaultPackableMethodFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.condition.ConditionStateRouterFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.Help",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.cache.support.expiring.ExpiringCacheFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.AdaptiveLoadBalanceFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.serialize.DefaultMultipleSerialization",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.validation.filter.ValidationFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.condition.matcher.argument.ArgumentConditionMatcherFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.condition.config.ServiceStateRouterFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.compressor.Snappy",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.h3.negotiation.AdaptiveClientStreamFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.probe.impl.ProviderReadinessProbe",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.client.metadata.ServiceInstanceMetadataCustomizer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.swagger.RedocRequestHandler",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.support.MockProtocol",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.spring.status.DataSourceStatusChecker",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.springframework.context.ApplicationContext"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.security.cert.CertScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.multiple.StringToCollectionConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.threadpool.support.eager.EagerThreadPool",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.executor.DefaultIsolationExecutorSupportFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.threadpool.support.limited.LimitedThreadPool",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.DefaultMetricsReporterCmd",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.GetEnabledRouterSnapshot",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.dubbo.DubboIsolationExecutorSupportFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.aot.RegistryReflectionTypeDescriberRegistrar",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.spring.security.model.SecurityScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.support.merger.DefaultProviderURLMergeProcessor",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.threadpool.support.loom.VirtualThreadPool",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.jaxrs.JaxrsRequestMappingResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.OnlineApp",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.client.ServiceDiscoveryRegistryFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.support.registry.ZoneAwareCluster",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.logger.log4j.Log4jLoggerAdapter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.http12.message.DefaultHttpMessageAdapterFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.listener.DeprecatedInvokerListener",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.spring.RequestAttributeArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.http12.message.codec.JsonCodecFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.auth.filter.ProviderAuthHeaderFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.h3.grpc.GrpcHttp3ServerTransportListenerFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.compressor.Gzip",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.ExecuteLimitFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.logger.log4j2.Log4j2LoggerAdapter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.h12.HttpContextCallbackFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.aot.TripleReflectionTypeDescriberRegistrar",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.EchoFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metrics.prometheus.PrometheusMetricsReporterCmd",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metrics.filter.MetricsProviderFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.basic.FallbackArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.netty4.NettyPortUnificationTransporter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metrics.MetricsScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.StringToDurationConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.filter.RestExtensionExecutionFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.CompatibleFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.governance.DefaultGovernanceRuleRepositoryImpl",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.RegistryScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.OnlineInterface",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.basic.BasicRequestMappingResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.multiple.StringToArrayConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.dubbo.status.ServerStatusChecker",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.GetRouterSnapshot",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.http12.message.codec.HtmlCodecFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.netty4.aot.Netty4ReflectionTypeDescriberRegistrar",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.support.FailoverCluster",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.extension.inject.SpiExtensionInjector",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.h12.grpc.GrpcCompositeCodecFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.api.connection.MultiplexProtocolConnectionManager",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.ClassLoaderCallbackFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.spring.security.filter.ContextHolderAuthenticationPrepareFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.telnet.support.command.ClearTelnetHandler",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.spring.SpringResponseRestFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.multiple.StringToTransferQueueConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.jaxrs.FormParamArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.spring.PathVariableArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metadata.DefaultMetadataParamsFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.json.impl.JacksonImpl",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.OfflineApp",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.cache.support.jcache.JCacheFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.h3.Http3ClientStreamFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.SwitchLogLevel",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metadata.definition.builder.CollectionTypeBuilder",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.cors.CorsHeaderFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.swagger.SwaggerUIRequestHandler",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.spring.context.DubboBootstrapStartStopListenerSpringAdapter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.SerializeWarnedClasses",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.spring.RequestHeaderArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.ShutdownTelnet",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metrics.service.DefaultMetricsService",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.SelectTelnet",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.service.GenericServiceDetector",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.ConfigScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.multiple.StringToSetConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.http3.netty4.Http3ChannelAddressAccessor",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.configcenter.support.nacos.NacosDynamicConfigurationFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.exchange.codec.ExchangeCodec",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.tracing.filter.ObservationSenderFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.GenericFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.beans.ScopeBeanExtensionInjector",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.condition.matcher.pattern.range.RangeValuePattern",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.dispatcher.all.AllDispatcher",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.merger.SetMerger",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.multiple.StringToBlockingQueueConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.telnet.support.command.ExitTelnetHandler",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.spring.RequestPartArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.zookeeper.aot.ZookeeperReflectionTypeDescriberRegistrar",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.serialize.fastjson2.FastJson2Serialization",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.security.cert.CertDeployerListener",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.cache.support.lru.LruCacheFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.spring.MatrixVariableArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.h12.http2.Http2ClientStreamFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.multicast.MulticastRegistryFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.basic.GRequestArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.GenericImplFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.RpcScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.EnableRouterSnapshot",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.dubbo.pu.DubboWireProtocol",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.Quit",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.multiple.MultipleRegistryFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.openapi.OpenAPIScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.auth.filter.ConsumerSignFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.multiple.StringToBlockingDequeConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.TpsLimitFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.condition.matcher.attachment.AttachmentConditionMatcherFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.telnet.codec.TelnetCodec",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.filter.support.ConsumerContextFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.TripleProtocol",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.PwdTelnet",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metadata.definition.builder.EnumTypeBuilder",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.h12.grpc.GrpcHttp2ServerTransportListenerFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.metadata.ExporterDeployListener",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metadata.definition.protobuf.ProtobufTypeBuilder",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.dispatcher.direct.DirectDispatcher",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.validation.support.jvalidation.JValidation",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.utils.JavassistParameterNameReader",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.multiple.StringToSortedSetConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.cache.support.lfu.LfuCacheFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.GetConfig",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.InvokeTelnet",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.condition.config.ProviderAppStateRouterFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.ProfilerServerFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.ClassLoaderFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.merger.ByteArrayMerger",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.injvm.DefaultParamDeepCopyUtil",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.infra.support.EnvironmentAdapter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.proxy.jdk.JdkProxyFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.spring.RequestParamArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.EnableSimpleProfiler",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.TimeoutFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.merger.FloatArrayMerger",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.filter.support.CallbackConsumerContextFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.Version",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.TripleHttp2Protocol",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.client.DefaultRegistryClusterIdentifier",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.merger.IntArrayMerger",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.nacos.aot.NacosReflectionTypeDescriberRegistrar",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.telnet.support.command.HelpTelnetHandler",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.support.AvailableCluster",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.protocol.QosProtocolWrapper",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.Protocol"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.Startup",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.monitor.support.MonitorClusterFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.SetProfilerWarnPercent",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.api.pu.DefaultCodec",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.mock.MockStateRouterFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.condition.matcher.param.UrlParamConditionMatcherFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.openapi.DefaultOpenAPINamingStrategy",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.auth.AccessKeyAuthenticator",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metrics.metadata.collector.MetadataMetricsCollector",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.nacos.NacosServiceDiscoveryFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.security.cert.DubboCertProvider",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.telnet.support.command.LogTelnetHandler",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.spring.security.filter.ContextHolderParametersSelectedTransferFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.PublishMetadata",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.AdaptiveScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.deploy.DefaultMetricsServiceExporter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.status.RegistryStatusChecker",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.h12.HttpContextFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.jaxrs.BeanParamArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.spring.SpringMvcRequestMappingResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.loadbalance.ConsistentHashLoadBalance",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.tag.TagStateRouterFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metadata.aot.MetadataProxyDescriberRegistrar",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metadata.definition.builder.MapTypeBuilder",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.jaxrs.filter.ContainerResponseFilterAdapter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metadata.store.zookeeper.ZookeeperMetadataReportFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.service.EchoServiceDetector",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metadata.definition.builder.ArrayTypeBuilder",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.ChangeTelnet",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.condition.matcher.pattern.wildcard.WildcardValuePattern",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.tracing.filter.ObservationReceiverFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.GrpcProtocol",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.telnet.support.command.StatusTelnetHandler",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.Ready",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.RpcExceptionFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.multiple.StringToListConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metrics.config.collector.ConfigCenterMetricsCollector",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metrics.registry.collector.NettyMetricsCollector",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.auth.BasicAuthenticator",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.compiler.support.AdaptiveCompiler",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.support.BroadcastCluster",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.GetRecentRouterSnapshot",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.StringToByteConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.ExceptionFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.client.DefaultServiceDiscoveryFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.loadbalance.LeastActiveLoadBalance",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.multiple.StringToNavigableSetConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.injvm.InjvmProtocol",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.jaxrs.JaxrsResponseRestFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.ProtocolSecurityWrapper",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.Protocol"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.extension.ServicesLoadingStrategy",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.dispatcher.message.MessageOnlyDispatcher",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.aot.QosReflectionTypeDescriberRegistrar",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.nacos.NacosRegistryFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.filter.support.MetricsConsumerFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.status.support.MemoryStatusChecker",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.mesh.MeshScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.Online",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.StringToLongConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.jaxrs.HeaderParamArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.spring.FallbackArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.OfflineInterface",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.loadbalance.RoundRobinLoadBalance",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.RegistryFactoryWrapper",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.registry.RegistryFactory"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.legacy.TraceTelnetHandler",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.threadpool.support.fixed.FixedThreadPool",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.StringToBooleanConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.http12.message.codec.JsonPbCodecFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.StringToStringConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.http12.message.codec.PlainTextCodecFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.AccessLogFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.netty.NettyTransporter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.basic.BasicOpenAPIDefinitionResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.configurator.override.OverrideConfiguratorFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.support.FailsafeCluster",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.probe.impl.DeployerStartupProbe",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.GetOpenAPI",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.jaxrs.CookieParamArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.jaxrs.filter.ExceptionMapperAdapter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.jaxrs.filter.ContainerRequestFilterAdapter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.spring.HandlerInterceptorAdapter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.integration.RegistryProtocol",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.logger.jcl.JclLoggerAdapter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.multiple.StringToQueueConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.jaxrs.BodyArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.swagger.JavadocOpenAPIDefinitionResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.spring.RestSpringScopeModelInitializer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.probe.impl.DeployerReadinessProbe",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.filter.support.MetricsClusterFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.config.configcenter.nop.NopDynamicConfigurationFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.validation.support.jvalidation.AdapterValidation",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.jaxrs.FallbackArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.StringToShortConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.dubbo.filter.TraceFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.http12.message.codec.BinaryCodecFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.CountTelnet",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.serialize.hessian2.aot.HessianReflectionTypeDescriberRegistrar",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.argument.MiscArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.merger.ShortArrayMerger",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.EnableDetailProfiler",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.extension.inject.AdaptiveExtensionInjector",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.Live",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.filter.ContextFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.loadbalance.AdaptiveLoadBalance",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.serialize.hessian2.Hessian2Serialization",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.spring.ModelAttributeArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.config.configcenter.file.FileSystemDynamicConfigurationFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.cache.filter.CacheFilter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.auth.DefaultAccessKeyStorage",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.merger.DoubleArrayMerger",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.client.migration.DefaultMigrationAddressComparator",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.multicast.MulticastServiceDiscoveryFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.filter.DefaultFilterChainBuilder",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.SerializeCheckStatus",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.dubbo.DubboCountCodec",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.config.ModuleEnvironment",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.spring.RequestBodyArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.serialize.DefaultSerializationExceptionWrapper",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.common.serialize.Serialization"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.support.wrapper.MockClusterWrapper",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.cluster.Cluster"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.http12.message.codec.XmlCodecFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.impl.GetAddress",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.spring.extension.SpringExtensionInjector",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.condition.config.AppStateRouterFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.validation.support.jvalidation.JValidationNew",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.mapping.RestRequestHandlerMapping",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.merger.CharArrayMerger",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metrics.collector.AggregateMetricsCollector",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.support.servlet.jakarta.ServletHttpMessageAdapterFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.exchange.Exchanger$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.Transporter$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.cache.CacheFactory$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metadata.report.MetadataReportFactory$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metrics.report.MetricsReporterFactory$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.monitor.MonitorFactory$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.LoadBalance$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.Codec2$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.serialize.Serialization$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.RegistryFactory$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.Dispatcher$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.api.pu.PortUnificationTransporter$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.RouterFactory$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.Codec$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.threadpool.ThreadPool$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.Protocol$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.Cluster$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.validation.Validation$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.ConfiguratorFactory$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.ProxyFactory$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.state.StateRouterFactory$Adaptive",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.integration.ExporterFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.serialize.fastjson2.Fastjson2SecurityManager",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.argument.GeneralTypeConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.serialization.ClassHolder",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.listener.InjvmExporterListener",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.serialize.hessian2.Hessian2FactoryManager",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.ssl.CertManager",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.server.Server",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.argument.CompositeArgumentResolver",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.argument.CompositeArgumentConverter",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.serialize.support.PreferSerializationProviderImpl",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.utils.DefaultParameterNameReader",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.PermittedSerializationKeeper",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.util.SerializeCheckUtils",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.http12.HttpJsonUtils",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.utils.SerializeSecurityManager",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.remoting.http12.message.codec.CodecUtils",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.convert.ConverterUtil",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.RouterSnapshotSwitcher",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.serialize.fastjson2.Fastjson2CreatorManager",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.utils.DefaultSerializeClassChecker",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.FrameworkModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.threadpool.manager.FrameworkExecutorRepository",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.support.RegistryManager",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.qos.command.ActuatorCommandExecutor",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.client.metadata.MetadataServiceDelegation",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.registry.client.metadata.MetadataServiceDelegationV2",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.status.reporter.FrameworkStatusReportService",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.utils.DefaultConfigValidator",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.merger.MergerFactory",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metrics.event.MetricsDispatcher",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.AdaptiveMetrics",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.support.ClusterUtils",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.lang.ShutdownHookCallbacks",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.deploy.DefaultApplicationDeployer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.metadata.report.MetadataReportInstance",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.rpc.cluster.router.mesh.route.MeshRuleManager",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.utils.SerializeSecurityConfigurator",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.deploy.DefaultModuleDeployer",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.ConsumerConfig",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.spring.ConfigCenterBean",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.ReferenceConfig",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel",
+          "org.apache.dubbo.config.annotation.Reference"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.config.annotation.Reference"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.ModuleConfig",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel",
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.ConfigCenterConfig",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.MetricsConfig",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.MetadataReportConfig",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.ProtocolConfig",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String",
+          "int"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel",
+          "java.lang.String",
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.SslConfig",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.ApplicationConfig",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.MethodConfig",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.config.annotation.Method"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.TracingConfig",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.MonitorConfig",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.ServiceConfig",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel",
+          "org.apache.dubbo.config.annotation.Service"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.config.annotation.Service"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.ProviderConfig",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.spring.ServiceBean",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ModuleModel"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.springframework.context.ApplicationContext",
+          "org.apache.dubbo.rpc.model.ModuleModel",
+          "org.apache.dubbo.config.annotation.Service"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.springframework.context.ApplicationContext",
+          "org.apache.dubbo.rpc.model.ModuleModel"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.springframework.context.ApplicationContext"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.springframework.context.ApplicationContext",
+          "org.apache.dubbo.config.annotation.Service"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.config.RegistryConfig",
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [ ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String",
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.apache.dubbo.rpc.model.ApplicationModel",
+          "java.lang.String",
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.apache.dubbo.common.constants.CommonConstants$SystemProperty",
+    "allPublicFields": true
+  },
+  {
+    "name": "org.apache.dubbo.common.constants.CommonConstants$ThirdPartyProperty",
+    "allPublicFields": true
+  },
+  {
+    "name": "org.apache.dubbo.common.constants.CommonConstants$DubboProperty",
+    "allPublicFields": true
+  },
+  {
+    "name": "org.apache.dubbo.metrics.collector.HistogramMetricsCollector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.socket.UnixDomainSocketAddressSerDeserializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java8.WeekFieldsDeserializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.socket.Inet6AddressHolderDeserializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.ObjectNameDeserializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.UUIDDeserializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.CurrencyDeserializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.socket.InetSocketAddressDeserializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.FileDeserializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.socket.InetAddressDeserializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.socket.Inet6AddressDeserializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.BigDecimalDeserializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.socket.InetAddressHolderDeserializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.atomic.LongAdderDeserializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.socket.URIDeserializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.chronology.HijrahDateSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.chronology.JapaneseDateSeriailzer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java8.ZonedDateTimeSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.chronology.ThaiBuddhistDateSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.StringValueSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.chronology.AbstractChronologySerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.chronology.AbstractChronologySerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.chronology.JapaneseEraSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.LocaleSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java8.DurationSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java8.LocalTimeSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java8.ZoneOffsetSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.socket.URISerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java8.OffsetTimeSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java9.SetNSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java9.Set12Serializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.chronology.ChronoZonedDateTimeImplSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java9.ListNSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.StringValueSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.StringValueSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java8.InstantSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.socket.InetSocketAddressSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java8.ZoneIdSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.EnumSetSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java8.OffsetDateTimeSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.chronology.AbstractChronologySerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.chronology.MinguoDateSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java8.YearSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java8.LocalDateSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.atomic.LongAdderSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.chronology.AbstractChronologySerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java8.SynchronizedRandomAccessListSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java8.LocalDateTimeSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java8.UnmodifiableRandomAccessListSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.chronology.ChronoLocalDateTimeImplSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java9.MapNSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.chronology.ChronoPeriodImplSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java8.PeriodSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java9.SubListSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java8.MonthDaySerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.socket.Inet4AddressSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.StringValueSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.socket.Inet6AddressSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java9.List12Serializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.chronology.AbstractChronologySerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java8.YearMonthSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.EnumSetSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.socket.UnixDomainSocketAddressSerializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.com.caucho.hessian.io.java9.Map1Serializer",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "java.sql.Date",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "java.sql.Time",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "java.sql.Timestamp",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "org.apache.dubbo.metadata.MetadataService",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.metadata.MetadataServiceV2",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.metadata.MetadataInfo",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.apache.dubbo.metadata.MetadataInfoV2",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.ability.ClientAbilities",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.config.ability.ClientConfigAbility",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.config.remote.request.AbstractConfigRequest",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.config.remote.request.ConfigBatchListenRequest",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.config.remote.request.ConfigBatchListenRequest$ConfigListenContext",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.config.remote.request.ConfigPublishRequest",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.config.remote.request.ConfigQueryRequest",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.config.remote.response.ConfigChangeBatchListenResponse",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.config.remote.response.ConfigChangeBatchListenResponse$ConfigContext",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.config.remote.response.ConfigPublishResponse",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.config.remote.response.ConfigQueryResponse",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.naming.ability.ClientNamingAbility",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.naming.pojo.Instance",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.naming.pojo.ServiceInfo",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.naming.remote.request.AbstractNamingRequest",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.naming.remote.request.InstanceRequest",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.naming.remote.request.NotifySubscriberRequest",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.naming.remote.request.ServiceQueryRequest",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.naming.remote.request.SubscribeServiceRequest",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.naming.remote.response.InstanceResponse",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.naming.remote.response.NotifySubscriberResponse",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.naming.remote.response.QueryServiceResponse",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.naming.remote.response.SubscribeServiceResponse",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.remote.ability.ClientRemoteAbility",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.remote.request.ConnectionSetupRequest",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.remote.request.HealthCheckRequest",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.remote.request.InternalRequest",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.remote.request.Request",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.remote.request.ServerCheckRequest",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.remote.request.ServerRequest",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.remote.response.HealthCheckResponse",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.remote.response.Response",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.remote.response.ServerCheckResponse",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.common.remote.TlsConfig",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.common.remote.client.RpcClientTlsConfig",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.grpc.auto.Metadata",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.grpc.auto.Metadata$Builder",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.grpc.auto.Payload",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.grpc.auto.Payload$Builder",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.naming.NamingService",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.remote.Payload",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.client.config.NacosConfigService",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.client.naming.NacosNamingService",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.common.notify.DefaultPublisher",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.com.google.protobuf.Any",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.com.google.protobuf.Any$Builder",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.com.google.protobuf.ExtensionRegistry",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBufAllocator",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.ChannelDuplexHandler",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.ChannelInboundHandlerAdapter",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.handler.codec.ByteToMessageDecoder",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2ConnectionHandler",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.ReferenceCountUtil",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "com.alibaba.nacos.api.PropertyKeyConst",
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture",
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractReferenceCountedByteBuf",
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.internal.DnsNameResolverProvider"
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.internal.PickFirstLoadBalancerProvider"
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.Waiter",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.grpc.netty.AbstractNettyHandler",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.grpc.netty.NettyClientHandler",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.grpc.netty.WriteBufferingAndExceptionHandler",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.DefaultChannelPipeline.HeadContext",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.DefaultChannelPipeline.TailContext",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueColdProducerFields",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueConsumerFields",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueProducerFields",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueConsumerIndexField",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerLimitField",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.netty4.NettyServerHandler",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.netty4.ssl.SslServerTlsHandler",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.netty4.NettyClientHandler",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.netty4.ssl.SslClientTlsHandler",
+    "allPublicMethods": true
+  },
+  {
+    "name": "java.nio.channels.spi.SelectorProvider",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.netty4.NettyPortUnificationServerHandler",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.netty4.NettyChannelHandler",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.remoting.transport.netty4.NettyConnectionHandler",
+    "allPublicMethods": true
+  },
+  {
+    "name": "java.nio.channels.spi.SelectorProvider",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.qos.server.handler.ForeignHostPermitHandler",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.qos.server.handler.QosProcessHandler",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.qos.server.handler.TelnetIdleEventHandler",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.registry.client.metadata.MetadataServiceDelegation",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.transport.TripleCommandOutBoundHandler",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.transport.TripleTailHandler",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.transport.TripleServerConnectionHandler",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.transport.TripleGoAwayHandler",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.transport.TripleHttp2ClientResponseHandler",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.remoting.http12.ErrorResponse",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.mapping.DefaultRequestMappingRegistry",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.route.DefaultRequestRouter",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.mapping.ContentNegotiator",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.argument.CompositeArgumentResolver",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.argument.CompositeArgumentConverter",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.h12.CompositeExceptionHandler",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.apache.dubbo.rpc.protocol.tri.rest.argument.GeneralTypeConverter",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.apache.dubbo.remoting.http12.message.codec.CodecUtils",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.apache.dubbo.registry.zookeeper.ZookeeperInstance",
+    "allDeclaredMethods": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredFields": true
+  }
+]

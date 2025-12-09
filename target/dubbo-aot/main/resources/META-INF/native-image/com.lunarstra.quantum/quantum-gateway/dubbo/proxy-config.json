@@ -1,0 +1,23 @@
+[
+  {
+    "interfaces": [
+      "org.apache.dubbo.rpc.service.GenericService",
+      "org.apache.dubbo.rpc.service.EchoService",
+      "org.apache.dubbo.rpc.service.Destroyable"
+    ]
+  },
+  {
+    "interfaces": [
+      "org.apache.dubbo.metadata.MetadataService",
+      "org.apache.dubbo.rpc.service.EchoService",
+      "org.apache.dubbo.rpc.service.Destroyable"
+    ]
+  },
+  {
+    "interfaces": [
+      "org.apache.dubbo.metadata.MetadataServiceV2",
+      "org.apache.dubbo.rpc.service.EchoService",
+      "org.apache.dubbo.rpc.service.Destroyable"
+    ]
+  }
+]
