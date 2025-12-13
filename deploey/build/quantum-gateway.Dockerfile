@@ -14,7 +14,7 @@ ENV AES_ENCRYPTION_KEY=${AES_ENCRYPTION_KEY}
 WORKDIR /app
 
 # 复制 JAR 文件到容器中
-COPY quantum-gateway/target/quantum-gateway-*.jar app.jar
+COPY target/quantum-gateway-*.jar app.jar
 
 # 暴露端口
 EXPOSE 5000
