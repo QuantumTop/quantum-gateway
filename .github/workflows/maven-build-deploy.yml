@@ -115,7 +115,7 @@ on:
         value: ${{ jobs.build-deploy.outputs.version }}
 
 jobs:
-  parent-deploy:
+  quantum-parent-deploy:
     uses: QuantumTop/quantum-parent/.github/workflows/maven-build-deploy.yml@main
     with:
       java-version: ${{ inputs.java-version }}
@@ -130,8 +130,24 @@ jobs:
     secrets:
       MAVEN_TOKEN: ${{ secrets.MAVEN_TOKEN }}
 
+  quantum-common-deploy:
+    needs: quantum-parent-deploy
+    uses: QuantumTop/quantum-common/.github/workflows/maven-build-deploy.yml@main
+    with:
+      java-version: ${{ inputs.java-version }}
+      distribution: ${{ inputs.distribution }}
+      maven-options: ${{ inputs.maven-options }}
+      working-directory: ${{ inputs.working-directory }}
+      skip-tests: ${{ inputs.skip-tests }}
+      maven-username: ${{ inputs.maven-username }}
+      server-id: ${{ inputs.server-id }}
+      repository-url: ${{ inputs.repository-url }}
+      profile-id: ${{ inputs.profile-id }}
+    secrets:
+      MAVEN_TOKEN: ${{ secrets.MAVEN_TOKEN }}
+
   build-deploy:
-    needs: parent-deploy
+    needs: quantum-parent-deploy
     runs-on: ubuntu-latest
     outputs:
       version: ${{ steps.get-version.outputs.version }}
