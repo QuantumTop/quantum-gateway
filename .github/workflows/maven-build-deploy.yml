@@ -145,144 +145,69 @@ jobs:
       profile-id: ${{ inputs.profile-id }}
     secrets:
       MAVEN_TOKEN: ${{ secrets.MAVEN_TOKEN }}
-
-  build-deploy:
+  build-and-push-single-images:
+    runs-on: ubuntu-latest
     needs:
       - quantum-parent-deploy
       - quantum-common-deploy
-    runs-on: ubuntu-latest
-    outputs:
-      version: ${{ steps.get-version.outputs.version }}
+    permissions:
+      contents: read
+      packages: write
 
     steps:
-      - name: Checkout code
+      - name: Checkout Code
         uses: actions/checkout@v4
+
+      - name: Set up JDK 25
+        uses: graalvm/setup-graalvm@v1
         with:
-          repository: ${{ inputs.repository-path }}   # 👈 显式指定
-          ref: ${{ github.ref }}
+          java-version: '25'
+          distribution: 'graalvm'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Set up JDK ${{ inputs.java-version }}
-        uses: actions/setup-java@v4
+      - name: Cache Maven dependencies
+        uses: actions/cache@v4
         with:
-          java-version: ${{ inputs.java-version }}
-          distribution: ${{ inputs.distribution }}
-          cache: 'maven'
+          path: ~/.m2
+          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+          restore-keys: ${{ runner.os }}-m2
 
-      - name: Configure Maven settings
-        uses: whelk-io/maven-settings-xml-action@v22
+      - name: chmod
+        run: chmod +x ./mvnw
+
+      - name: Build quantum modules
+        run: |
+          ./mvnw clean package -Dmaven.test.skip=true
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Login to DockerHub
+        uses: docker/login-action@v3
         with:
-          servers: |
-            [
-              {
-                "id": "${{ inputs.server-id }}",
-                "username": "${{ inputs.maven-username }}",
-                "password": "${{ secrets.MAVEN_TOKEN }}"
-              }
-            ]
-          repositories: |
-            [
-              {
-                "id": "central",
-                "url": "https://repo.maven.apache.org/maven2",
-                "releases": {
-                  "enabled": "true"
-                },
-                "snapshots": {
-                  "enabled": "false"
-                }
-              },
-              {
-                "id": "${{ inputs.server-id }}",
-                "url": "${{ inputs.repository-url }}",
-                "releases": {
-                  "enabled": "true"
-                },
-                "snapshots": {
-                  "enabled": "true"
-                }
-              }
-            ]
-          plugin_repositories: |
-            [
-              {
-                "id": "central",
-                "url": "https://repo.maven.apache.org/maven2"
-              },
-              {
-                "id": "${{ inputs.server-id }}",
-                "url": "${{ inputs.repository-url }}"
-              }
-            ]
-          active_profiles: |
-            [
-              "${{ inputs.profile-id }}"
-            ]
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Make mvnw executable
-        working-directory: ${{ inputs.working-directory }}
-        run: |
-          if [ -f "./mvnw" ]; then
-            chmod +x ./mvnw
-          else
-            echo "Warning: mvnw not found, will use system Maven"
-          fi
+      - name: Extract metadata for gateway image
+        id: meta-gateway
+        uses: docker/metadata-action@v5
+        with:
+          images: gyyst/quantum-gateway
+          tags: |
+            type=ref,event=pr
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=raw,value=${{ github.event.inputs.tag || 'dev' }}
+            type=sha
 
-      - name: Get project version
-        id: get-version
-        working-directory: ${{ inputs.working-directory }}
-        run: |
-          if [ -f "pom.xml" ]; then
-            if [ -f "./mvnw" ]; then
-              VERSION=$(./mvnw help:evaluate -Dexpression=project.version -q -DforceStdout -N)
-            else
-              VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout -N)
-            fi
-            echo "version=$VERSION" >> $GITHUB_OUTPUT
-            echo "✅ Project version: $VERSION"
-          else
-            echo "❌ Error: No pom.xml found in working directory"
-            exit 1
-          fi
-
-      - name: Build and deploy to Maven repository
-        working-directory: ${{ inputs.working-directory }}
-        run: |
-          MVN_CMD="./mvnw"
-          if [ ! -f "./mvnw" ]; then
-            MVN_CMD="mvn"
-          fi
-          
-          MVN_ARGS="clean deploy"
-          
-          if [ "${{ inputs.skip-tests }}" = "true" ]; then
-            MVN_ARGS="$MVN_ARGS -DskipTests"
-          fi
-          
-          if [ -n "${{ inputs.maven-options }}" ]; then
-            MVN_ARGS="$MVN_ARGS ${{ inputs.maven-options }}"
-          fi
-          
-          echo "🚀 Executing: $MVN_CMD $MVN_ARGS"
-          $MVN_CMD $MVN_ARGS
-
-      - name: Summary
-        if: success()
-        run: |
-          echo "## ✅ Deployment Successful :rocket:" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "| Property | Value |" >> $GITHUB_STEP_SUMMARY
-          echo "|----------|-------|" >> $GITHUB_STEP_SUMMARY
-          echo "| **Artifact Version** | \`${{ steps.get-version.outputs.version }}\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Repository** | ${{ inputs.repository-url }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Server ID** | ${{ inputs.server-id }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Java Version** | ${{ inputs.java-version }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Distribution** | ${{ inputs.distribution }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Tests Skipped** | ${{ inputs.skip-tests }} |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Working Directory** | ${{ inputs.working-directory }} |" >> $GITHUB_STEP_SUMMARY
-
-      - name: Failure Summary
-        if: failure()
-        run: |
-          echo "## ❌ Deployment Failed" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "Please check the logs above for error details." >> $GITHUB_STEP_SUMMARY
+      - name: Build and push gateway image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./deploey/build/quantum-gateway.Dockerfile
+          platforms: linux/amd64,linux/arm64
+          push: true
+          tags: ${{ steps.meta-gateway.outputs.tags }}
+          labels: ${{ steps.meta-gateway.outputs.labels }}
+          build-args: |
+            AES_ENCRYPTION_KEY=${{ secrets.AES_ENCRYPTION_KEY }}
