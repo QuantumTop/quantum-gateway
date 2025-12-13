@@ -158,12 +158,12 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Set up JDK 25
-        uses: graalvm/setup-graalvm@v1
+      - name: Set up JDK ${{ inputs.java-version }}
+        uses: actions/setup-java@v4
         with:
-          java-version: '25'
-          distribution: 'graalvm'
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          java-version: ${{ inputs.java-version }}
+          distribution: ${{ inputs.distribution }}
+          cache: 'maven'
 
       - name: Cache Maven dependencies
         uses: actions/cache@v4
@@ -171,7 +171,7 @@ jobs:
           path: ~/.m2
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
-          
+
       - name: Configure Maven settings
         uses: whelk-io/maven-settings-xml-action@v22
         with:
