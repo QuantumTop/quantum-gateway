@@ -172,12 +172,18 @@ jobs:
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
 
-      - name: chmod
-        run: chmod +x ./mvnw
+      - name: Check and set Maven command
+        run: |
+          if [ -f "./mvnw" ]; then
+            echo "MAVEN_CMD=./mvnw" >> $GITHUB_ENV
+            chmod +x ./mvnw
+          else
+            echo "MAVEN_CMD=mvn" >> $GITHUB_ENV
+          fi
 
       - name: Build quantum modules
         run: |
-          ./mvnw clean package -Dmaven.test.skip=true
+          ${{ env.MAVEN_CMD }} clean package
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
