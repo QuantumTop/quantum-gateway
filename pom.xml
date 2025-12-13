@@ -16,9 +16,21 @@
         <maven.compiler.target>25</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    
     <repositories>
+        <!-- Maven 中央仓库 -->
         <repository>
-            <!-- 须与 server 的 id 一致 -->
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <!-- 自定义仓库：lunarstra-quantum -->
+        <repository>
             <id>lunarstra-quantum</id>
             <url>https://maven.cnb.cool/lunarstra/Quantum/-/packages/</url>
             <snapshots>
