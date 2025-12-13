@@ -147,7 +147,9 @@ jobs:
       MAVEN_TOKEN: ${{ secrets.MAVEN_TOKEN }}
 
   build-deploy:
-    needs: quantum-parent-deploy
+    needs:
+      - quantum-parent-deploy
+      - quantum-common-deploy
     runs-on: ubuntu-latest
     outputs:
       version: ${{ steps.get-version.outputs.version }}
