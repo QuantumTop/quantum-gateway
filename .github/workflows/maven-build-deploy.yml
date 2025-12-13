@@ -171,6 +171,56 @@ jobs:
           path: ~/.m2
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
+          
+      - name: Configure Maven settings
+        uses: whelk-io/maven-settings-xml-action@v22
+        with:
+          servers: |
+            [
+              {
+                "id": "${{ inputs.server-id }}",
+                "username": "${{ inputs.maven-username }}",
+                "password": "${{ secrets.MAVEN_TOKEN }}"
+              }
+            ]
+          repositories: |
+            [
+              {
+                "id": "central",
+                "url": "https://repo.maven.apache.org/maven2",
+                "releases": {
+                  "enabled": "true"
+                },
+                "snapshots": {
+                  "enabled": "false"
+                }
+              },
+              {
+                "id": "${{ inputs.server-id }}",
+                "url": "${{ inputs.repository-url }}",
+                "releases": {
+                  "enabled": "true"
+                },
+                "snapshots": {
+                  "enabled": "true"
+                }
+              }
+            ]
+          plugin_repositories: |
+            [
+              {
+                "id": "central",
+                "url": "https://repo.maven.apache.org/maven2"
+              },
+              {
+                "id": "${{ inputs.server-id }}",
+                "url": "${{ inputs.repository-url }}"
+              }
+            ]
+          active_profiles: |
+            [
+              "${{ inputs.profile-id }}"
+            ]
 
       - name: Check and set Maven command
         run: |
