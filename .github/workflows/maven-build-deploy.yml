@@ -1,4 +1,4 @@
-name: 'Maven Build and Deploy'
+name: 'Maven Build and Deploy - Gateway'
 
 on:
   workflow_dispatch:
@@ -49,7 +49,7 @@ on:
         default: 'lunarstra-quantum'
         type: string
       repository-path:
-        description: 'Maven repository username'
+        description: 'Maven repository path'
         required: false
         default: 'QuantumTop/quantum-gateway'
         type: string
@@ -101,7 +101,7 @@ on:
         default: 'cnb'
         type: string
       repository-path:
-        description: 'Maven repository username'
+        description: 'Maven repository path'
         required: false
         default: 'QuantumTop/quantum-gateway'
         type: string
@@ -115,6 +115,7 @@ on:
         value: ${{ jobs.build-deploy.outputs.version }}
 
 jobs:
+  # 第一步：构建 quantum-parent（如果需要）
   quantum-parent-deploy:
     uses: QuantumTop/quantum-parent/.github/workflows/maven-build-deploy.yml@main
     with:
@@ -127,9 +128,11 @@ jobs:
       server-id: ${{ inputs.server-id }}
       repository-url: ${{ inputs.repository-url }}
       profile-id: ${{ inputs.profile-id }}
+      built-modules: ''  # 初始为空
     secrets:
       MAVEN_TOKEN: ${{ secrets.MAVEN_TOKEN }}
 
+  # 第二步：构建 quantum-common（如果需要）
   quantum-common-deploy:
     needs: quantum-parent-deploy
     uses: QuantumTop/quantum-common/.github/workflows/maven-build-deploy.yml@main
@@ -143,8 +146,11 @@ jobs:
       server-id: ${{ inputs.server-id }}
       repository-url: ${{ inputs.repository-url }}
       profile-id: ${{ inputs.profile-id }}
+      built-modules: ${{ needs.quantum-parent-deploy.outputs.built-modules }}  # 传递已构建模块
     secrets:
       MAVEN_TOKEN: ${{ secrets.MAVEN_TOKEN }}
+
+  # 第三步：构建和推送 Docker 镜像
   build-and-push-single-images:
     runs-on: ubuntu-latest
     needs:
@@ -267,3 +273,23 @@ jobs:
           labels: ${{ steps.meta-gateway.outputs.labels }}
           build-args: |
             AES_ENCRYPTION_KEY=${{ secrets.AES_ENCRYPTION_KEY }}
+
+      - name: Summary
+        if: success()
+        run: |
+          echo "## ✅ Gateway Build & Deploy Successful :rocket:" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Built Modules" >> $GITHUB_STEP_SUMMARY
+          echo "| Module | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|--------|" >> $GITHUB_STEP_SUMMARY
+          
+          BUILT_MODULES="${{ needs.quantum-common-deploy.outputs.built-modules }}"
+          IFS=',' read -ra MODULES <<< "$BUILT_MODULES"
+          for module in "${MODULES[@]}"; do
+            echo "| $module | ✅ Built |" >> $GITHUB_STEP_SUMMARY
+          done
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Docker Image" >> $GITHUB_STEP_SUMMARY
+          echo "- **Image**: gyyst/quantum-gateway" >> $GITHUB_STEP_SUMMARY
+          echo "- **Tags**: ${{ steps.meta-gateway.outputs.tags }}" >> $GITHUB_STEP_SUMMARY
