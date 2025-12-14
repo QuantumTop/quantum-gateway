@@ -48,7 +48,7 @@ on:
         required: false
         default: 'lunarstra-quantum'
         type: string
-      repository-path:
+      repository-module:
         description: 'Maven repository path'
         required: false
         default: 'QuantumTop/quantum-gateway'
@@ -100,7 +100,7 @@ on:
         required: false
         default: 'cnb'
         type: string
-      repository-path:
+      repository-module:
         description: 'Maven repository path'
         required: false
         default: 'QuantumTop/quantum-gateway'
@@ -132,9 +132,25 @@ jobs:
     secrets:
       MAVEN_TOKEN: ${{ secrets.MAVEN_TOKEN }}
 
+  quantum-lib-deploy:
+    needs: quantum-parent-deploy
+    uses: QuantumTop/quantum-lib/.github/workflows/maven-build-deploy.yml@main
+    with:
+      java-version: ${{ inputs.java-version }}
+      distribution: ${{ inputs.distribution }}
+      maven-options: ${{ inputs.maven-options }}
+      working-directory: ${{ inputs.working-directory }}
+      skip-tests: ${{ inputs.skip-tests }}
+      maven-username: ${{ inputs.maven-username }}
+      server-id: ${{ inputs.server-id }}
+      repository-url: ${{ inputs.repository-url }}
+      profile-id: ${{ inputs.profile-id }}
+      built-modules: ${{ needs.quantum-parent-deploy.outputs.built-modules }}  # 初始为空
+    secrets:
+      MAVEN_TOKEN: ${{ secrets.MAVEN_TOKEN }}
   # 第二步：构建 quantum-common（如果需要）
   quantum-common-deploy:
-    needs: quantum-parent-deploy
+    needs: quantum-lib-deploy
     uses: QuantumTop/quantum-common/.github/workflows/maven-build-deploy.yml@main
     with:
       java-version: ${{ inputs.java-version }}
@@ -146,7 +162,7 @@ jobs:
       server-id: ${{ inputs.server-id }}
       repository-url: ${{ inputs.repository-url }}
       profile-id: ${{ inputs.profile-id }}
-      built-modules: ${{ needs.quantum-parent-deploy.outputs.built-modules }}  # 传递已构建模块
+      built-modules: ${{ needs.quantum-lib-deploy.outputs.built-modules }}  # 传递已构建模块
     secrets:
       MAVEN_TOKEN: ${{ secrets.MAVEN_TOKEN }}
 
