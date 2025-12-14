@@ -128,10 +128,11 @@ jobs:
       server-id: ${{ inputs.server-id }}
       repository-url: ${{ inputs.repository-url }}
       profile-id: ${{ inputs.profile-id }}
-      built-modules: ''  # 初始为空
+      built-modules: ''  # 🔧 修复：移除了无效的 "空" 字符
     secrets:
       MAVEN_TOKEN: ${{ secrets.MAVEN_TOKEN }}
 
+  # 第二步：构建 quantum-lib（如果需要）
   quantum-lib-deploy:
     needs: quantum-parent-deploy
     uses: QuantumTop/quantum-lib/.github/workflows/maven-build-deploy.yml@main
@@ -145,10 +146,11 @@ jobs:
       server-id: ${{ inputs.server-id }}
       repository-url: ${{ inputs.repository-url }}
       profile-id: ${{ inputs.profile-id }}
-      built-modules: ${{ needs.quantum-parent-deploy.outputs.built-modules }}  # 初始为空
+      built-modules: ${{ needs.quantum-parent-deploy.outputs.built-modules }}  # 🔧 修复：传递 parent 的输出
     secrets:
       MAVEN_TOKEN: ${{ secrets.MAVEN_TOKEN }}
-  # 第二步：构建 quantum-common（如果需要）
+
+  # 第三步：构建 quantum-common（如果需要）
   quantum-common-deploy:
     needs: quantum-lib-deploy
     uses: QuantumTop/quantum-common/.github/workflows/maven-build-deploy.yml@main
@@ -162,15 +164,16 @@ jobs:
       server-id: ${{ inputs.server-id }}
       repository-url: ${{ inputs.repository-url }}
       profile-id: ${{ inputs.profile-id }}
-      built-modules: ${{ needs.quantum-lib-deploy.outputs.built-modules }}  # 传递已构建模块
+      built-modules: ${{ needs.quantum-lib-deploy.outputs.built-modules }}  # ✅ 正确：传递 lib 的输出（包含 parent+lib）
     secrets:
       MAVEN_TOKEN: ${{ secrets.MAVEN_TOKEN }}
 
-  # 第三步：构建和推送 Docker 镜像
+  # 第四步：构建和推送 Docker 镜像
   build-and-push-single-images:
     runs-on: ubuntu-latest
     needs:
       - quantum-parent-deploy
+      - quantum-lib-deploy
       - quantum-common-deploy
     permissions:
       contents: read
