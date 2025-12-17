@@ -1,0 +1,352 @@
+name: 'Maven Build and Deploy - Gateway'
+
+on:
+  workflow_dispatch:
+    inputs:
+      java-version:
+        description: 'Java version to use'
+        required: false
+        default: '25'
+        type: string
+      distribution:
+        description: 'Java distribution to use'
+        required: false
+        default: 'temurin'
+        type: string
+      maven-options:
+        description: 'Additional Maven options'
+        required: false
+        default: '-T 2C'
+        type: string
+      working-directory:
+        description: 'Working directory for the Maven project'
+        required: false
+        default: '.'
+        type: string
+      skip-tests:
+        description: 'Skip running tests'
+        required: false
+        default: true
+        type: boolean
+      maven-username:
+        description: 'Maven repository username'
+        required: false
+        default: 'cnb'
+        type: string
+      server-id:
+        description: 'Maven server ID for repository'
+        required: false
+        default: 'lunarstra-quantum'
+        type: string
+      repository-url:
+        description: 'Repository URL'
+        required: false
+        default: 'https://maven.cnb.cool/lunarstra/Quantum/-/packages/'
+        type: string
+      profile-id:
+        description: 'Maven profile ID for repository'
+        required: false
+        default: 'lunarstra-quantum'
+        type: string
+      repository-module:
+        description: 'Maven repository path'
+        required: false
+        default: 'QuantumTop/quantum-gateway'
+        type: string
+  workflow_call:
+    inputs:
+      java-version:
+        description: 'Java version to use'
+        required: false
+        default: '25'
+        type: string
+      distribution:
+        description: 'Java distribution to use'
+        required: false
+        default: 'temurin'
+        type: string
+      maven-options:
+        description: 'Additional Maven options'
+        required: false
+        default: '-T 2C'
+        type: string
+      working-directory:
+        description: 'Working directory for the Maven project'
+        required: false
+        default: '.'
+        type: string
+      server-id:
+        description: 'Maven server ID for repository'
+        required: false
+        default: 'lunarstra-quantum'
+        type: string
+      repository-url:
+        description: 'Repository URL'
+        required: false
+        default: 'https://maven.cnb.cool/lunarstra/Quantum/-/packages/'
+        type: string
+      profile-id:
+        description: 'Maven profile ID for repository'
+        required: false
+        default: 'lunarstra-quantum'
+        type: string
+      skip-tests:
+        description: 'Skip running tests'
+        required: false
+        default: true
+        type: boolean
+      maven-username:
+        description: 'Maven repository username'
+        required: false
+        default: 'cnb'
+        type: string
+      repository-module:
+        description: 'Maven repository path'
+        required: false
+        default: 'QuantumTop/quantum-gateway'
+        type: string
+    secrets:
+      MAVEN_TOKEN:
+        description: 'Maven repository authentication token'
+        required: true
+    outputs:
+      artifact-version:
+        description: 'Version of the deployed artifact'
+        value: ${{ jobs.build-and-push-single-images.outputs.version }}
+
+jobs:
+  # 第一步：构建 quantum-parent
+  quantum-parent-deploy:
+    uses: QuantumTop/quantum-parent/.github/workflows/maven-build-deploy-single.yml@main
+    with:
+      java-version: ${{ inputs.java-version }}
+      distribution: ${{ inputs.distribution }}
+      maven-options: ${{ inputs.maven-options }}
+      working-directory: ${{ inputs.working-directory }}
+      skip-tests: ${{ inputs.skip-tests }}
+      maven-username: ${{ inputs.maven-username }}
+      server-id: ${{ inputs.server-id }}
+      repository-url: ${{ inputs.repository-url }}
+      profile-id: ${{ inputs.profile-id }}
+    secrets:
+      MAVEN_TOKEN: ${{ secrets.MAVEN_TOKEN }}
+
+  # 第二步：构建 quantum-lib
+  quantum-lib-deploy:
+    needs: quantum-parent-deploy
+    uses: QuantumTop/quantum-lib/.github/workflows/maven-build-deploy-single.yml@main
+    with:
+      java-version: ${{ inputs.java-version }}
+      distribution: ${{ inputs.distribution }}
+      maven-options: ${{ inputs.maven-options }}
+      working-directory: ${{ inputs.working-directory }}
+      skip-tests: ${{ inputs.skip-tests }}
+      maven-username: ${{ inputs.maven-username }}
+      server-id: ${{ inputs.server-id }}
+      repository-url: ${{ inputs.repository-url }}
+      profile-id: ${{ inputs.profile-id }}
+    secrets:
+      MAVEN_TOKEN: ${{ secrets.MAVEN_TOKEN }}
+
+  # 第三步：构建 quantum-common
+  quantum-common-deploy:
+    needs: quantum-lib-deploy
+    uses: QuantumTop/quantum-common/.github/workflows/maven-build-deploy-single.yml@main
+    with:
+      java-version: ${{ inputs.java-version }}
+      distribution: ${{ inputs.distribution }}
+      maven-options: ${{ inputs.maven-options }}
+      working-directory: ${{ inputs.working-directory }}
+      skip-tests: ${{ inputs.skip-tests }}
+      maven-username: ${{ inputs.maven-username }}
+      server-id: ${{ inputs.server-id }}
+      repository-url: ${{ inputs.repository-url }}
+      profile-id: ${{ inputs.profile-id }}
+    secrets:
+      MAVEN_TOKEN: ${{ secrets.MAVEN_TOKEN }}
+
+  # 第四步：构建和推送 Docker 镜像
+  build-and-push-single-images:
+    runs-on: ubuntu-latest
+    needs:
+      - quantum-parent-deploy
+      - quantum-lib-deploy
+      - quantum-common-deploy
+    permissions:
+      contents: read
+      packages: write
+    outputs:
+      version: ${{ steps.get-version.outputs.version }}
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ inputs.repository-module }}
+          ref: ${{ github.ref }}
+
+      - name: Set up JDK ${{ inputs.java-version }}
+        uses: actions/setup-java@v4
+        with:
+          java-version: ${{ inputs.java-version }}
+          distribution: ${{ inputs.distribution }}
+          cache: 'maven'
+
+      - name: Cache Maven dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.m2
+          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+          restore-keys: ${{ runner.os }}-m2
+
+      - name: Configure Maven settings
+        uses: whelk-io/maven-settings-xml-action@v22
+        with:
+          servers: |
+            [
+              {
+                "id": "${{ inputs.server-id }}",
+                "username": "${{ inputs.maven-username }}",
+                "password": "${{ secrets.MAVEN_TOKEN }}"
+              }
+            ]
+          repositories: |
+            [
+              {
+                "id": "central",
+                "url": "https://repo.maven.apache.org/maven2",
+                "releases": {
+                  "enabled": "true"
+                },
+                "snapshots": {
+                  "enabled": "false"
+                }
+              },
+              {
+                "id": "${{ inputs.server-id }}",
+                "url": "${{ inputs.repository-url }}",
+                "releases": {
+                  "enabled": "true"
+                },
+                "snapshots": {
+                  "enabled": "true"
+                }
+              }
+            ]
+          plugin_repositories: |
+            [
+              {
+                "id": "central",
+                "url": "https://repo.maven.apache.org/maven2"
+              },
+              {
+                "id": "${{ inputs.server-id }}",
+                "url": "${{ inputs.repository-url }}"
+              }
+            ]
+          active_profiles: |
+            [
+              "${{ inputs.profile-id }}"
+            ]
+
+      - name: Make mvnw executable
+        working-directory: ${{ inputs.working-directory }}
+        run: |
+          if [ -f "./mvnw" ]; then
+            chmod +x ./mvnw
+          else
+            echo "Warning: mvnw not found, will use system Maven"
+          fi
+
+      - name: Get project version
+        id: get-version
+        working-directory: ${{ inputs.working-directory }}
+        run: |
+          if [ -f "pom.xml" ]; then
+            if [ -f "./mvnw" ]; then
+              VERSION=$(./mvnw help:evaluate -Dexpression=project.version -q -DforceStdout -N)
+            else
+              VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout -N)
+            fi
+            echo "version=$VERSION" >> $GITHUB_OUTPUT
+            echo "✅ Project version: $VERSION"
+          else
+            echo "❌ Error: No pom.xml found in working directory"
+            exit 1
+          fi
+
+      - name: Build quantum gateway module
+        working-directory: ${{ inputs.working-directory }}
+        run: |
+          MVN_CMD="./mvnw"
+          if [ ! -f "./mvnw" ]; then
+            MVN_CMD="mvn"
+          fi
+          
+          MVN_ARGS="clean package"
+          
+          if [ "${{ inputs.skip-tests }}" = "true" ]; then
+            MVN_ARGS="$MVN_ARGS -DskipTests"
+          fi
+          
+          if [ -n "${{ inputs.maven-options }}" ]; then
+            MVN_ARGS="$MVN_ARGS ${{ inputs.maven-options }}"
+          fi
+          
+          echo "🚀 Executing: $MVN_CMD $MVN_ARGS"
+          $MVN_CMD $MVN_ARGS
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Login to DockerHub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Extract metadata for gateway image
+        id: meta-gateway
+        uses: docker/metadata-action@v5
+        with:
+          images: gyyst/quantum-gateway
+          tags: |
+            type=ref,event=pr
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=raw,value=${{ github.event.inputs.tag || 'dev' }}
+            type=sha
+
+      - name: Build and push gateway image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./deploey/build/quantum-gateway.Dockerfile
+          platforms: linux/amd64,linux/arm64
+          push: true
+          tags: ${{ steps.meta-gateway.outputs.tags }}
+          labels: ${{ steps.meta-gateway.outputs.labels }}
+          build-args: |
+            AES_ENCRYPTION_KEY=${{ secrets.AES_ENCRYPTION_KEY }}
+
+      - name: Summary
+        if: success()
+        run: |
+          echo "## ✅ Gateway Build & Deploy Successful :rocket:" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Property | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|----------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| **Component** | **quantum-gateway** |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Artifact Version** | \`${{ steps.get-version.outputs.version }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Docker Image** | gyyst/quantum-gateway |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Tags** | ${{ steps.meta-gateway.outputs.tags }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Repository** | ${{ inputs.repository-url }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Java Version** | ${{ inputs.java-version }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Platforms** | linux/amd64, linux/arm64 |" >> $GITHUB_STEP_SUMMARY
+
+      - name: Failure Summary
+        if: failure()
+        run: |
+          echo "## ❌ Gateway Build & Deploy Failed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Please check the logs above for error details." >> $GITHUB_STEP_SUMMARY
